@@ -12,6 +12,27 @@
 
     <div id="box"></div>
     
+
+    <script>
+        // access microphone
+
+        const getMedia = async (constraints) => {
+        let stream = null;
+        try {
+            stream = await navigator.mediaDevices.getUserMedia(constraints);
+            console.log(stream);
+        } catch (err) {
+            document.write(err);
+        }
+        };
+
+        getMedia({ audio: true, video: true });
+
+        // return a value for sound
+
+
+    </script>
+
     <script src="scripts.js"></script>
 
 </body>
