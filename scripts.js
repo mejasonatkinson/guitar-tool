@@ -1,39 +1,55 @@
 const tabs = {
     EBGDAE: [
-        [
-            "x",
-            "x",
-            "x",
-            "x",
-            "x",
-            0,
-        ],
-        [
-            "x",
-            "x",
-            "x",
-            "x",
-            "x",
-            3,
-        ],
-        [
-            "x",
-            "x",
-            "x",
-            "x",
-            "x",
-            4,
-        ],
-        [
-            "x",
-            "x",
-            "x",
-            "x",
-            2,
-            "x",
-        ],
+        ["x", "x", "x", "x", "x", 0,],
+        ["x", "x", "x", "x", "x", 3,],
+        ["x", "x", "x", "x", "x", 4,],
+        ["x", "x", "x", "x", 2, "x",],
     ]
 }
+
+// Happy Birthday (High E)
+// x, x, x, x, x, 0
+// x, x, x, x, x, 0
+// x, x, x, x, x, 2
+// x, x, x, x, x, 0
+// x, x, x, x, x, 5
+// x, x, x, x, x, 4
+// x, x, x, x, x, 0
+// x, x, x, x, x, 0
+// x, x, x, x, x, 2
+// x, x, x, x, x, 0
+// x, x, x, x, x, 7
+// x, x, x, x, x, 5
+// x, x, x, x, x, 0
+// x, x, x, x, x, 0
+// x, x, x, x, x, 9
+// x, x, x, x, x, 5
+// x, x, x, x, x, 4
+// x, x, x, x, x, 4
+// x, x, x, x, x, 2
+// x, x, x, x, x, 10
+// x, x, x, x, x, 10
+// x, x, x, x, x, 9
+// x, x, x, x, x, 5
+// x, x, x, x, x, 7
+// x, x, x, x, x, 5
+
+// Smoke on the water (G)
+// x, x, 0, x, x, x
+// x, x, 3, x, x, x
+// x, x, 5, x, x, x
+// x, x, 0, x, x, x
+// x, x, 3, x, x, x
+// x, x, 6, x, x, x
+// x, x, 5, x, x, x
+// x, x, 0, x, x, x
+// x, x, 3, x, x, x
+// x, x, 5, x, x, x
+// x, x, 3, x, x, x
+// x, x, 0, x, x, x
+
+
+
 
 const box = document.getElementById('box');
 
